@@ -1,0 +1,19 @@
+POST http://localhost:3030/students
+Content-Type: application/json
+
+{
+    "nim": "2003113932",
+    "name": "sam",
+    "age": 21,
+    "address": "pasaman barat"
+}
+
+###
+
+GET http://localhost:3030/students/2003113931
+Content-Type: application/json
+
+###
+
+GET http://localhost:3030/students
+Content-Type: application/json
